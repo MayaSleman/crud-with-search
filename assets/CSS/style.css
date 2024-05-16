@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#myInput{
+    display: none;
+    border:  2px solid rgb(74, 119, 243);
+}
+#myInput.open{
+    display: block;
+}
+.icon i{
+    color: white
+}
+.icon{
+    background-color: rgb(74, 119, 243);
+    width: 45px;
+    height: 45px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.width {
+    width: 100%;
+}
